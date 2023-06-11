@@ -1,0 +1,1 @@
+Text-to-Speech allows developers to create natural-sounding, synthetic human speech as playable audio. You can use the audio data files you create using Text-to-Speech to power your applications or augment media like videos or audio recordings (in compliance with the Google Cloud Platform Terms of Service including compliance with all applicable law).

@@ -1,12 +1,20 @@
-# TODO set up at google cloud platform
-'''
-Create KEY
-https://console.cloud.google.com/apis/credentials?project=day-90-pdftoauditobook
+from gtts import gTTS
+from playsound import playsound
 
-YouTube tutorial 7:53
-https://youtu.be/izdDHVLc_Z0
+audio ="speech.mp3"
+language ="en"
 
-'''
+with open("text.txt", mode="r") as f:
+    text = f.read()
 
+speech = gTTS(
+                text=text,
+                lang=language)
+
+speech.save(audio)
+playsound(audio)
+
+#TODO extract text from PDF file
 #TODO Read text from PDF file
 #TODO send API request
+

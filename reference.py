@@ -1,5 +1,10 @@
 """
 YouTube: Google text-to-speech
+https://youtu.be/DiZBfjabyhw
+
+"""
+
+"""
 Google Cloud Speech-To-Text API With Python For Beginners
 
 Google cloud console
@@ -9,3 +14,12 @@ Google cloud text-to-speech
 https://cloud.google.com/text-to-speech
 
 """
+
+'''
+Create KEY at google cloud
+https://console.cloud.google.com/apis/credentials?project=day-90-pdftoauditobook
+
+YouTube tutorial 7:53
+https://youtu.be/izdDHVLc_Z0
+
+'''
